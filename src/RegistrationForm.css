@@ -1,0 +1,141 @@
+.registration-form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.result-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #f5f5f5;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #36d7b7;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin: 1rem;
+  width: 100%;
+  max-width: 200px;
+}
+
+button:hover {
+  background-color: #2ea79e;
+}
+
+.enrollment-details {
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-family: sans-serif;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.skills label {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+#image-of-student {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 15%;
+}
+
+.enrolled-students-container {
+  padding: 2em 0 0 0;
+  width: 100%;
+  max-width: 300px;
+
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  justify-content: flex-start;
+}
+
+.gender label {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.gender input[type="radio"] {
+  margin-right: 0.3rem;
+}
+
+.enrolled-student {
+  margin-top: 1rem;
+  border-radius: 15%;
+  border: 1px solid black;
+  background-color: #f5f5f5;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
